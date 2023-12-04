@@ -31,10 +31,10 @@ namespace SMS
 
                 switch (option)
                 {
-                    case 1: SemesterCourseMethod.AddStudent(students); break;
+                    case 1: SemesterCourseMethod.StudentAdd(students); break;
                     case 2: SemesterCourseMethod.ViewStudent(students); break;
                     case 3: SemesterCourseMethod.DeleteStudent(students); break;
-                    case 4: SemesterCourseMethod.AddSemester(students); break;
+                    case 4: SemesterCourseMethod.SemesterAdd(students); break;
 
                     default: Console.WriteLine("Invalid Choices"); break;
                 }

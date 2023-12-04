@@ -21,7 +21,7 @@ namespace SMSystem
         new Course { CourseId = "CSE 104", CourseName = "Design and Arcitecture", InstructorName = "Prof. Motiur Nizam", NumberOfCredits = 2.5}
         };
 
-        public static void AddStudent(List<Student> students)
+        public static void StudentAdd(List<Student> students)
         {
             Console.WriteLine("Add a new student : ");
             Console.WriteLine("First Name : ");
@@ -91,7 +91,7 @@ namespace SMSystem
 
         }
 
-        public static void AddSemester(List<Student> students)
+        public static void SemesterAdd(List<Student> students)
         {
             Console.Write("Enter Student ID: ");
             string? studentId = Console.ReadLine();
